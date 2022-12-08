@@ -145,7 +145,7 @@ h5 {
 .topc a {
     text-decoration: none;
     color: #D64527;
-    padding-left: 1rem;
+
 }
 
 
@@ -189,7 +189,6 @@ h5 {
 .bottomc a {
     text-decoration: none;
     color: #D64527;
-    padding-left: 1rem;
 }
 
 /* CSS for Form */
@@ -209,6 +208,10 @@ select>option>{
     color: black;
 }
 
+/* select option:first-child{
+    color: #D8CEC8;
+  } */
+
 .formhead {
     display: flex;
     width: 100%;
@@ -224,6 +227,9 @@ select>option>{
     height: 0%;
 }
 
+.formcorner{
+    width: 9%;
+}
 
 #bottomrighticon img {
     position: absolute;
@@ -288,7 +294,6 @@ form {
     width: 144px;
     letter-spacing: 1px;
     font-weight: 600;
-
 }
 
 
@@ -460,4 +465,5 @@ button {
     font-weight: bolder;
     font-size: 11px;
     font-family: Akkurat;
+    padding-left: 1rem;
 }
