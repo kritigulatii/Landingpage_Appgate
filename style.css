@@ -25,7 +25,7 @@ h1,h2,h4 {
     font-family: 'Rubik', sans-serif;
 }
 
-h3,p,li{
+h3,p,li,a{
     font-family: Akkurat;
 }
 
@@ -200,10 +200,13 @@ h5 {
     max-width: 100%;
 }
 
-input::placeholder,
-select {
+input::placeholder{
     color: #D8CEC8;
     font-weight: 600;
+}
+
+select>option>{
+    color: black;
 }
 
 .formhead {
@@ -253,6 +256,8 @@ form {
     width: 467px;
     height: 45px;
     margin-left: 20px;
+    color: #D8CEC8;
+    font-weight: 600;
 }
 
 #talk {
@@ -281,6 +286,8 @@ form {
     height: 50px;
     cursor: pointer;
     width: 144px;
+    letter-spacing: 1px;
+    font-weight: 600;
 
 }
 
