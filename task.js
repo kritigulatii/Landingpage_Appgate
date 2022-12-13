@@ -6,17 +6,17 @@ function showInfo1(){
     if(invisibleText1.style.display!=="inline"){
         invisibleText1.style.display="inline";
 
-        btnText.src = "/Images/Group 8815.png";
+        btnText.src = "Images/Group 8815.png";
         
         mainDiv.style.backgroundColor="black";
         mainDiv.style.color="white";
-        mainDiv.style.height="202px";
+        mainDiv.style.height="250px";
 
     }
     else {
         invisibleText1.style.display="none";
         
-        btnText.src = "/Images/Group 8813.png";
+        btnText.src = "Images/Group 8813.png";
 
         mainDiv.style.backgroundColor="white";
         mainDiv.style.color="black";
@@ -34,9 +34,9 @@ function showInfo2(){
         invisibleText2.style.display="inline";
         mainDiv.style.backgroundColor="black";
         mainDiv.style.color="white";
-        mainDiv.style.height="202px";
+        mainDiv.style.height="250px";
 
-        btnText.src = "/Images/Group 8815.png";
+        btnText.src = "Images/Group 8815.png";
 
     }
     else {
@@ -45,7 +45,7 @@ function showInfo2(){
         mainDiv.style.color="black";
         mainDiv.style.height="82px";
 
-        btnText.src = "/Images/Group 8813.png";
+        btnText.src = "Images/Group 8813.png";
     }
 
 }
@@ -59,9 +59,9 @@ function showInfo3(){
         invisibleText.style.display="inline";
         mainDiv.style.backgroundColor="black";
         mainDiv.style.color="white";
-        mainDiv.style.height="202px";
+        mainDiv.style.height="250px";
 
-        btnText.src = "/Images/Group 8815.png";
+        btnText.src = "Images/Group 8815.png";
 
     }
     else {
@@ -70,7 +70,7 @@ function showInfo3(){
         mainDiv.style.color="black";
         mainDiv.style.height="82px";
 
-        btnText.src = "/Images/Group 8813.png";
+        btnText.src = "Images/Group 8813.png";
     }
 
 }
@@ -84,9 +84,9 @@ function showInfo4(){
         invisibleText4.style.display="inline";
         mainDiv.style.backgroundColor="black";
         mainDiv.style.color="white";
-        mainDiv.style.height="202px";
+        mainDiv.style.height="250px";
 
-        btnText.src = "/Images/Group 8815.png";
+        btnText.src = "Images/Group 8815.png";
 
     }
     else {
@@ -95,7 +95,7 @@ function showInfo4(){
         mainDiv.style.color="black";
         mainDiv.style.height="82px";
 
-        btnText.src = "/Images/Group 8813.png";
+        btnText.src = "Images/Group 8813.png";
     }
 
 }
@@ -109,9 +109,9 @@ function showInfo5(){
         invisibleText5.style.display="inline";
         mainDiv.style.backgroundColor="black";
         mainDiv.style.color="white";
-        mainDiv.style.height="202px";
+        mainDiv.style.height="250px";
 
-        btnText.src = "/Images/Group 8815.png";
+        btnText.src = "Images/Group 8815.png";
 
     }
     else {
@@ -120,7 +120,7 @@ function showInfo5(){
         mainDiv.style.color="black";
         mainDiv.style.height="82px";
 
-        btnText.src = "/Images/Group 8813.png";
+        btnText.src = "Images/Group 8813.png";
     }
 
 }

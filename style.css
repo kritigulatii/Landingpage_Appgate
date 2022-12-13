@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    /* max-width: 100%; */
 }
 @font-face {
     font-family: Akkurat;
@@ -17,76 +18,69 @@ body {
 
 }
 
-body{
-    overflow-x: hidden;
+#container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-image: url("/Images/background.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-h1,h2,h4 {
-    font-family: 'Rubik', sans-serif;
+h2{
+    font-size: 39px; 
+    text-align: center; 
+    font-weight: 500;
 }
 
-h3,p,li,a{
+h3{
+    font-size:25px; 
+    font-weight: 500;
+}
+
+h1,h2,h3,h4 {
+    font-family: SharpGrotesk;
+}
+
+p,li,a{
     font-family: Akkurat;
 }
 
 
 p.analysis_detail{
-    font-family: 'Rubik', sans-serif;
+    font-family: SharpGrotesk;
+    font-size: 18px;
     font-weight: 500;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
 #maincontext {
-    background-image: url("/Images/background.png");
+    /* background-image: url("/Images/background.png"); */
+    background-image: linear-gradient(rgba(216, 206, 200, 0.7)20%, rgba(255, 255, 255, 1)45%);
     background-repeat: no-repeat;
     background-size: contain;
+    padding: 6rem;
 
 }
 
 .header {
-    /* padding-left: 14%;
-    padding-right: 14%; */
-    max-width: 1480px;
-    margin: 20px auto;
-}
-
-.starthead {
+    background-color: white;
     display: flex;
     justify-content: space-between;
-    width: 1480px;
+    max-width: 100%;
     align-items: center;
-    padding: 0.5rem;
+    padding: 2rem 6rem;
 }
 
-.navi {
-    background-color: white;
-}
-
-.navright{
+.header a{
+    display: block;
     color: black;
 }
 
-.navi ul {
-    overflow: auto;
-    margin-bottom: 0%;
-}
-
-.navi li {
-    list-style: none;
-    
-    font-size: 16px;
-    
-}
-
-.navi img {
-    width: 180px;
-    height: 45px;
-}
 
 h1 {
-    /* margin-top: 0; */
-    padding-top: 103px;
     text-align: center;
     font-size: 45px;
     font-weight: 400;
@@ -96,42 +90,68 @@ h5 {
     text-align: center;
 }
 
+.header a:hover{
+    color: #D64527;
+    /* text-decoration: underline; */
+}
+
+.analysis1 a:hover{
+    color: darkslategrey;
+    text-decoration: underline;
+}
+
+.content a:hover{
+    color: darkslategrey;
+    text-decoration: underline;
+}
+
+.dropdown a:hover{
+    color: #D8CEC8;
+    text-decoration: underline;
+}
+
 /* CSS for Portion 1 */
 
-.content {
-    /* padding-left: 12%;
-    padding-right: 12%; */
-    margin: 20px auto;
-    margin-top: 5%;
-    max-width: 1420px;
-
+.content{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
+
 
 .topc {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
+    
+    gap: 5rem;
 }
 
-.topL {
-    padding-right: 5rem;
-    /* padding-left: 3rem; */
+.topLeft {
+    /* display: block; */
+    width: 50%;
     font-weight: 500;
+
+}
+
+.topRight{
+    width: 50%;
 }
 
 .topRight img {
-    padding-top: 4rem;
-    width: 850px;
-    height: 500px;
-    padding-right: 8rem;
-    padding-left: 5rem;
+    max-width: 100%;
 }
 
-.topL ul {
+.topLeft ul {
     list-style: none;
+    padding-left: 1.5rem;
 }
 
-.topL ul li::before {
+/* .topLeft ul li{
+    width: 50%;
+} */
+
+.topLeft ul li::before {
     content: "\2022";
     font-size: 1.5rem;
     font-weight: bolder;
@@ -144,6 +164,7 @@ h5 {
 
 .topc a {
     text-decoration: none;
+    font-weight: 600;
     color: #D64527;
 
 }
@@ -152,31 +173,38 @@ h5 {
 .bottomc {
 
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
+    /* padding-left: 15rem;
+    padding-right: 15rem; */
+    gap: 5rem;
 }
 
-.bottomR {
-    padding-right: 13rem;
-    padding-left: 1rem;
+.bottomLeft {
+    /* display: block; */
+    width: 50%;
     font-weight: 500;
-    
+
 
 }
 
 
-.bottomLeft img {
-    width: 700px;
-    height: 520px;
-    padding-left: 3rem;
-    padding-top:5rem
+.bottomRight{
+    width: 50%;
 }
 
-.bottomR ul {
+.bottomRight img {
+    max-width: 100%;
+}
+
+.bottomLeft ul {
     list-style: none;
+    padding-left: 1.5rem;
 }
 
-.bottomR ul li::before {
+.bottomLeft ul li::before {
     content: "\2022";
     font-size: 1.5rem;
     font-weight: bolder;
@@ -186,14 +214,19 @@ h5 {
     color: #D64527
 }
 
+/* .bottomLeft ul li{
+    width: 50%;
+} */
+
 .bottomc a {
     text-decoration: none;
+    font-weight: 600;
     color: #D64527;
 }
 
 /* CSS for Form */
 
-.form {
+.formbody {
     background-color: #D64527;
     padding: 0;
     max-width: 100%;
@@ -208,9 +241,7 @@ select>option>{
     color: black;
 }
 
-/* select option:first-child{
-    color: #D8CEC8;
-  } */
+
 
 .formhead {
     display: flex;
@@ -221,72 +252,87 @@ select>option>{
 
 .headcontent {
     text-align: center;
+    padding-top: 2rem;
 }
 
-.leftupicon {
-    height: 0%;
-}
-
-.formcorner{
-    width: 9%;
-}
-
-#bottomrighticon img {
-    position: absolute;
-    right: -70px;
-    margin-top: -160px;
-    height: 250px;
-    z-index: 1;
-}
 
 
 form {
     width: 100%; 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 0%;
+
 }
 
-.form input {
+
+.formbody input,select {
+   
     border: 2px solid #D8CEC8;
     padding: 8px;
     margin-left: 20px;
+    margin-top: 20px;
+    /* margin: 0%; */
     width: 467px;
     height: 45px;
-}
-
-.form select {
-    border: 2px solid #D8CEC8;
-    padding: 8px;
-    width: 467px;
-    height: 45px;
-    margin-left: 20px;
-    color: #D8CEC8;
     font-weight: 600;
 }
 
-#talk {
+input[type="text"]:focus,
+input[type="email"]:focus,select:focus,input[type="tel"]:focus{
+    outline: 0;
+    /* background: rgb(255, 255, 255, 0.1);
+    color: #D8CEC8; */
+    border: 2px black solid;
+}
+
+.formbody select {
+    font-weight: 600;
+}
+
+.talk {
     color: white;
     font-size: 39px;
     padding-top: 20px;
     padding-bottom: 0%;
     margin: 0%;
+    font-family: SharpGrotesk;
 }
 
-#makehard {
+.makehard {
     color: white;
     font-size: 70px;
     margin: 0%;
+    font-family: SharpGrotesk;
 }
 
-#easier {
+.easier {
     color: black;
     font-size: 70px;
     margin: 0%;
+    font-family: SharpGrotesk;
+}
+.formcorner{
+    max-width: 100%;
+}
+.rightdown{
+    max-width: 100%;
 }
 
-.button {
+.bottomrighticon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.formheader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formbody button{
+    margin-top: 2%;
     background-color: black;
     color: white;
     height: 50px;
@@ -294,14 +340,26 @@ form {
     width: 144px;
     letter-spacing: 1px;
     font-weight: 600;
+    margin-bottom: 5%;
+}
+
+select:required:invalid {
+    color: #D8CEC8;
+  }
+
+.formbody button:hover{
+    background-color: white;
+    color: #D64527;
+    border: 1px solid black;
+    transition: 0.5s;
 }
 
 
 
 /* CSS for Dropdown Information */
 
-.solving {
-    padding-top: 3rem;
+.solving{
+    padding-top: 2.5rem;
 }
 
 #invisible1 {
@@ -335,16 +393,15 @@ form {
     /* padding-top: 0.2rem; */
     height: 82px;
     display: flex;
-    /* align-items: baseline; */
+    align-items: center;
     justify-content: space-between;
     transition: 0.5s;
 }
 
-.dropdownicon{
-    padding-top: 1.2rem;
+.dropdown a{
+    cursor: pointer;
+    display: block;
 }
-
-
 .fontheading {
     font-size: 20px;
     font-weight: 500;
@@ -366,8 +423,9 @@ a {
     justify-content: center;
     align-items: center;
     padding-top: 2rem;
-    max-width: 1420px;
-    margin:20px auto;
+    max-width: 100%;
+    
+    padding-bottom: 2.5rem;
 
 }
 
@@ -393,9 +451,30 @@ button {
     padding-bottom: 3rem;
 }
 
+.footer p{
+    text-align: center;
+    color: white; 
+    font-size: 10px;
+}
+
+.footer a{
+    text-align: center;
+    color: white; 
+    font-size: 10px;
+}
+.footer a:hover{
+    color: #D64527;
+    text-decoration: underline;
+}
+
 .social {
     display: flex;
     justify-content: center;
+}
+
+.social a{
+    display: block;
+    cursor: pointer;
 }
 
 .ficon {
@@ -407,41 +486,52 @@ button {
 
 /* CSS for Related Analyst Materials */
 
-#material {
+.relAnalyst{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    max-width: 100%;
+}
+
+.analysthead h2 {
     font-size: 39;
     text-align: center;
     font-weight: 400;
-    padding-top: 6rem;
+    /* padding-top: 6rem; */
 }
 
 .analysisimage {
-    max-width: 1420px;
-    margin: 20px auto;
+    max-width: 100%;
+    
     padding-top: 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
 
 
 }
 
 .analysis1 {
     border: 1px solid;
-    width: 330px;
-    height: 420px;
-    overflow: hidden;
+    /* width: 330px;
+    height: 420px; */
+    width: 278px;
+    height: 355px;
     padding: 15px;
+    display: flex;
+    flex-direction: column;   
 }
 
 .analysis1>div {
-    width: 100%;
+    max-width: 100%;
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     /* overflow: hidden; */
 }
+
 
 .img1 {
     position: relative;
@@ -456,14 +546,13 @@ button {
 .analysis_detail {
     font-weight: 500;
     font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 80px;
+    
 }
 
 .analysis1 a{
     color: #D64527;
     font-weight: bolder;
-    font-size: 11px;
+    font-size: 14px;
     font-family: Akkurat;
     padding-left: 1rem;
 }
