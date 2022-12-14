@@ -1,5 +1,31 @@
 @media (max-width: 767px) {
 
+    .container{
+    margin: 0 auto;
+    max-width: 90%;
+    }
+
+    header .container {
+        padding: 1rem 0rem;
+    }
+
+    .Secure-Access{
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+    
+    }
+
+    .Solving-secure-challenges{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .Related-analyst-materials{
+        padding-top: 0.5rem;
+        padding-bottom: 4rem;
+    
+    }
+
 
     h1 {
         font-size: 29px;
@@ -21,21 +47,16 @@
         font-size: 29px;
     }
 
-    .header {
-
-        padding: 2rem;
-    }
+   
 
     .logo img {
         max-width: 70%;
     }
 
 
-    #maincontext {
-        padding: 2rem;
-    }
+  
 
-    .content {
+    .content-50-50 {
         padding-top: 1em;
         padding-bottom: 1rem;
     }
@@ -113,11 +134,21 @@
 
     }
 
+    .accordion{
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-    /* .analysis1 {
-        width: 278px;
-        height: 355px;
-    } */
+    .accordion h4{
+        font-size: 18px;
+    }
+    
+    .panel{
+        padding: 0px 10px;
+    }
+
+
 
     .formbody input,
     select {
@@ -155,6 +186,32 @@
 
 @media (max-width: 640px) {
 
+    .container{
+        margin: 0 auto;
+        max-width: 90%;
+        }
+
+        header .container {
+            padding: 1rem 0rem;
+        }
+    
+        .Secure-Access{
+            padding-top: 2rem;
+            padding-bottom: 0.5rem;
+        
+        }
+    
+        .Solving-secure-challenges{
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+    
+        .Related-analyst-materials{
+            padding-top: 0.5rem;
+            padding-bottom: 4rem;
+        
+        }
+
     h1,
     h2 {
         font-size: 29px;
@@ -169,19 +226,14 @@
         font-size: 18px;
     }
 
-    .header {
-
-        padding: 1rem;
-    }
+    
 
     .logo img {
         max-width: 70%;
     }
 
 
-    #maincontext {
-        padding: 1rem;
-    }
+   
 
 
     .topLeft ul li::before {
@@ -210,10 +262,6 @@
         padding-bottom: 1rem;
     }
 
-    /* .analysis1 {
-        width: 278px;
-        height: 355px;
-    } */
 
     .formbody input,
     select {
@@ -232,28 +280,60 @@
         padding-right: 10px;
     }
 
+    .accordion{
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
+    .accordion h4{
+        font-size: 18px;
+    }
+
+    .panel{
+        padding: 0px 10px;
+    }
 
 }
 
 
 @media ( min-width: 768px ) and ( max-width:1023px ) {
 
-    .header {
+    .container{
+        margin: 0 auto;
+        max-width: 90%;
+        }
 
-        padding: 2rem;
-    }
+        header .container {
+            padding: 2rem 0rem;
+        }
+    
+        .Secure-Access{
+            padding-top: 2rem;
+            padding-bottom: 0.5rem;
+        
+        }
+    
+        .Solving-secure-challenges{
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+    
+        .Related-analyst-materials{
+            padding-top: 0.5rem;
+            padding-bottom: 4rem;
+        
+        }
+    
 
+    
     .logo img {
         max-width: 70%;
     }
 
 
-    #maincontext {
-        padding: 2rem;
-    }
 
-    .content {
+    .content-50-50 {
         padding-top: 1em;
         padding-bottom: 1rem;
     }
@@ -337,6 +417,16 @@
         padding-right: 20px;
     }
 
+    .accordion{
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .panel{
+        padding: 0px 10px;
+    }
+
     .formbody input,
     select {
 
@@ -348,9 +438,9 @@
         width: 500px;
     }
 
-    /* .talk {
+    .talk {
         color: white;
-        font-size: 20px;
+        font-size: 30px;
         padding-top: 20px;
         padding-bottom: 0%;
         margin: 0%;
@@ -358,14 +448,14 @@
     
     .makehard {
         color: white;
-        font-size: 32px;
+        font-size: 42px;
         margin: 0%;
     }
     
     .easier {
         color: black;
-        font-size: 32px;
+        font-size: 42px;
         margin: 0%;
-    } */
+    }
 
 }

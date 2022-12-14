@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* max-width: 100%; */
 }
 @font-face {
     font-family: Akkurat;
@@ -18,14 +17,9 @@ body {
 
 }
 
-#container{
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* background-image: url("/Images/background.png"); */
-    background-repeat: no-repeat;
-    background-size: contain;
+.container{
+    margin: 0 auto;
+    max-width: 80%;
 }
 
 h2{
@@ -52,30 +46,26 @@ p.analysis_detail{
     font-family: SharpGrotesk;
     font-size: 18px;
     font-weight: 500;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.5rem;
 }
 
-#maincontext {
-    /* background-image: url("/Images/background.png"); */
-    background-image: linear-gradient(rgba(216, 206, 200, 0.7)20%, rgba(255, 255, 255, 1)45%);
+.maincontext {    
+    background-image: linear-gradient(rgba(216, 206, 200, 0.7)20%, rgba(255, 255, 255, 1)30%);
     background-repeat: no-repeat;
-    background-size: contain;
-    padding: 6rem;
-
 }
 
-.header {
+header .container {
     background-color: white;
     display: flex;
     justify-content: space-between;
-    max-width: 100%;
+    /* max-width: 100%; */
     align-items: center;
-    padding: 2rem 6rem;
+    padding: 2rem 0rem;
 }
 
 .header a{
     display: block;
+    font-weight: 600;
     color: black;
 }
 
@@ -100,7 +90,7 @@ h5 {
     text-decoration: underline;
 }
 
-.content a:hover{
+.content-50-50 a:hover{
     color: darkslategrey;
     text-decoration: underline;
 }
@@ -112,9 +102,15 @@ h5 {
 
 /* CSS for Portion 1 */
 
-.content{
+.Secure-Access{
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
+
+}
+
+.content-50-50{
     padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    /* padding-bottom: 2.5rem; */
 }
 
 
@@ -128,7 +124,6 @@ h5 {
 }
 
 .topLeft {
-    /* display: block; */
     width: 50%;
     font-weight: 500;
 
@@ -147,9 +142,7 @@ h5 {
     padding-left: 1.5rem;
 }
 
-/* .topLeft ul li{
-    width: 50%;
-} */
+
 
 .topLeft ul li::before {
     content: "\2022";
@@ -177,13 +170,10 @@ h5 {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    /* padding-left: 15rem;
-    padding-right: 15rem; */
     gap: 5rem;
 }
 
 .bottomLeft {
-    /* display: block; */
     width: 50%;
     font-weight: 500;
 
@@ -213,10 +203,6 @@ h5 {
     margin-left: -1em;
     color: #D64527
 }
-
-/* .bottomLeft ul li{
-    width: 50%;
-} */
 
 .bottomc a {
     text-decoration: none;
@@ -283,8 +269,6 @@ form {
 input[type="text"]:focus,
 input[type="email"]:focus,select:focus,input[type="tel"]:focus{
     outline: 0;
-    /* background: rgb(255, 255, 255, 0.1);
-    color: #D8CEC8; */
     border: 2px black solid;
 }
 
@@ -358,57 +342,9 @@ select:required:invalid {
 
 /* CSS for Dropdown Information */
 
-.solving{
-    padding-top: 2.5rem;
-}
-
-#invisible1 {
-    display: none;
-}
-
-#invisible2 {
-    display: none;
-}
-
-#invisible3 {
-    display: none;
-}
-
-#invisible4 {
-    display: none;
-}
-
-#invisible5 {
-    display: none;
-}
-
-.dropdown {
-    border: 1px solid;
-    max-width: 1390px;
-    width: 100%;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    padding-left: 100px;
-    padding-right: 30px;
-    /* padding-top: 0.2rem; */
-    height: 82px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    transition: 0.5s;
-}
-
-.dropdown a{
-    cursor: pointer;
-    display: block;
-}
-.fontheading {
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.subhead {
-    font-size: 16px;
+.Solving-secure-challenges{
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
 }
 
 a {
@@ -417,26 +353,124 @@ a {
 }
 
 
-.maindrop {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2rem;
-    max-width: 100%;
-    
-    padding-bottom: 2.5rem;
-
-}
-
-
-
 button {
     border: none;
     background-color: inherit;
     cursor: pointer;
 }
 
+span{
+    font-family: Akkurat;
+}
+
+.accordion-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 100px;
+    margin-top: 10px;
+    max-width: 100%;
+    width: 1390px;
+    height: 82px;
+    border: 1px solid black;
+    /* border-bottom: none; */
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+}
+
+.accordion h4{
+    font-size: 20px;
+}
+
+.top {
+    display: inline-block;
+    position: relative;
+    max-width: 2rem;
+    width: 100%;
+    height: 2rem;
+    border: 0.2rem solid #D64527;
+    border-radius: 100%;
+    /* margin-right: 0.75em; */
+}
+
+.top:after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    margin-top: 0.4rem;
+    margin-left: 0.45rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-top: 0.2rem solid #D64527;
+    border-right: 0.2rem solid #D64527;
+    -moz-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.active .top{
+    background-color: #D64527;
+}
+
+.active .top:after {
+    content: '';
+    display: inline-block;
+    margin-top: 0.6rem;
+    margin-left: 0.45rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-top: 0.2rem solid white;
+    border-right: 0.2rem solid white;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.accordion-heading {
+    font-family: SharpGrotesk;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.panel {
+    max-width: 100%;
+    width: 1390px;
+    padding: 0px 100px;
+    font-size: 18px;
+    max-height: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    transition: max-height 0.3s ease-out;
+    font-size: 16px;
+}
+
+.panel p{
+    margin-top: 0;
+}
+.panel a{
+    font-weight: 600;
+}
+
+.panel a:hover{
+    color: #D8CEC8;
+    text-decoration: underline;
+}
 
 /* CSS for Footer */
 
@@ -486,17 +520,17 @@ button {
 
 /* CSS for Related Analyst Materials */
 
-.relAnalyst{
+
+.Related-analyst-materials{
     padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    max-width: 100%;
+    padding-bottom: 8rem;
+
 }
 
 .analysthead h2 {
     font-size: 39;
     text-align: center;
     font-weight: 400;
-    /* padding-top: 6rem; */
 }
 
 .analysisimage {
@@ -521,6 +555,7 @@ button {
     padding: 15px;
     display: flex;
     flex-direction: column;   
+    justify-content: flex-start;
 }
 
 .analysis1>div {
@@ -529,9 +564,11 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* overflow: hidden; */
 }
 
+.analysis1>div img{
+    max-width: 100%;
+}
 
 .img1 {
     position: relative;
@@ -554,5 +591,7 @@ button {
     font-weight: bolder;
     font-size: 14px;
     font-family: Akkurat;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
+    position: absolute;
+    margin-top: 19rem;
 }
