@@ -496,6 +496,11 @@ span{
     color: white; 
     font-size: 10px;
 }
+
+.logofooter{
+    display: block;
+}
+
 .footer a:hover{
     color: #D64527;
     text-decoration: underline;
