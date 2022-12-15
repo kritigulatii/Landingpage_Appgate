@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: Akkurat;
     src: url("/fonts/Akkurat.ttf");
@@ -10,6 +11,7 @@
     font-family: SharpGrotesk;
     src: url("/fonts/SharpGroteskTRIALSmBold-25.ttf");
 }
+
 html,
 body {
     margin: 0;
@@ -17,39 +19,44 @@ body {
 
 }
 
-.container{
+.container {
     margin: 0 auto;
     max-width: 80%;
 }
 
-h2{
-    font-size: 39px; 
-    text-align: center; 
+h2 {
+    font-size: 39px;
+    text-align: center;
     font-weight: 500;
 }
 
-h3{
-    font-size:25px; 
+h3 {
+    font-size: 25px;
     font-weight: 500;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: SharpGrotesk;
 }
 
-p,li,a{
+p,
+li,
+a {
     font-family: Akkurat;
 }
 
 
-p.analysis_detail{
+p.analysis_detail {
     font-family: SharpGrotesk;
     font-size: 18px;
     font-weight: 500;
     padding-left: 0.5rem;
 }
 
-.maincontext {    
+.maincontext {
     background-image: linear-gradient(rgba(216, 206, 200, 0.7)20%, rgba(255, 255, 255, 1)30%);
     background-repeat: no-repeat;
 }
@@ -63,7 +70,7 @@ header .container {
     padding: 2rem 0rem;
 }
 
-.header a{
+.header a {
     display: block;
     font-weight: 600;
     color: black;
@@ -80,35 +87,35 @@ h5 {
     text-align: center;
 }
 
-.header a:hover{
+.header a:hover {
     color: #D64527;
     /* text-decoration: underline; */
 }
 
-.analysis1 a:hover{
+.analysis1 a:hover {
     color: darkslategrey;
     text-decoration: underline;
 }
 
-.content-50-50 a:hover{
+.content-50-50 a:hover {
     color: darkslategrey;
     text-decoration: underline;
 }
 
-.dropdown a:hover{
+.dropdown a:hover {
     color: #D8CEC8;
     text-decoration: underline;
 }
 
 /* CSS for Portion 1 */
 
-.Secure-Access{
+.Secure-Access {
     padding-top: 5rem;
     padding-bottom: 1.5rem;
 
 }
 
-.content-50-50{
+.content-50-50 {
     padding-top: 2.5rem;
     /* padding-bottom: 2.5rem; */
 }
@@ -119,7 +126,7 @@ h5 {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    
+
     gap: 5rem;
 }
 
@@ -129,7 +136,7 @@ h5 {
 
 }
 
-.topRight{
+.topRight {
     width: 50%;
 }
 
@@ -181,7 +188,7 @@ h5 {
 }
 
 
-.bottomRight{
+.bottomRight {
     width: 50%;
 }
 
@@ -218,12 +225,12 @@ h5 {
     max-width: 100%;
 }
 
-input::placeholder{
+input::placeholder {
     color: #D8CEC8;
     font-weight: 600;
 }
 
-select>option>{
+select>option> {
     color: black;
 }
 
@@ -244,7 +251,7 @@ select>option>{
 
 
 form {
-    width: 100%; 
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -254,8 +261,9 @@ form {
 }
 
 
-.formbody input,select {
-   
+.formbody input,
+select {
+
     border: 2px solid #D8CEC8;
     padding: 8px;
     margin-left: 20px;
@@ -267,7 +275,9 @@ form {
 }
 
 input[type="text"]:focus,
-input[type="email"]:focus,select:focus,input[type="tel"]:focus{
+input[type="email"]:focus,
+select:focus,
+input[type="tel"]:focus {
     outline: 0;
     border: 2px black solid;
 }
@@ -298,24 +308,27 @@ input[type="email"]:focus,select:focus,input[type="tel"]:focus{
     margin: 0%;
     font-family: SharpGrotesk;
 }
-.formcorner{
-    max-width: 100%;
-}
-.rightdown{
+
+.formcorner {
     max-width: 100%;
 }
 
-.bottomrighticon{
+.rightdown {
+    max-width: 100%;
+}
+
+.bottomrighticon {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
-.formheader{
+
+.formheader {
     display: flex;
     justify-content: space-between;
 }
 
-.formbody button{
+.formbody button {
     margin-top: 2%;
     background-color: black;
     color: white;
@@ -329,9 +342,9 @@ input[type="email"]:focus,select:focus,input[type="tel"]:focus{
 
 select:required:invalid {
     color: #D8CEC8;
-  }
+}
 
-.formbody button:hover{
+.formbody button:hover {
     background-color: white;
     color: #D64527;
     border: 1px solid black;
@@ -342,7 +355,7 @@ select:required:invalid {
 
 /* CSS for Dropdown Information */
 
-.Solving-secure-challenges{
+.Solving-secure-challenges {
     padding-top: 1.5rem;
     padding-bottom: 2.5rem;
 }
@@ -359,7 +372,7 @@ button {
     cursor: pointer;
 }
 
-span{
+span {
     font-family: Akkurat;
 }
 
@@ -390,7 +403,7 @@ span{
     transition: 0.4s;
 }
 
-.accordion h4{
+.accordion h4 {
     font-size: 20px;
 }
 
@@ -420,7 +433,7 @@ span{
     transform: rotate(135deg);
 }
 
-.active .top{
+.active .top {
     background-color: #D64527;
 }
 
@@ -460,14 +473,15 @@ span{
     font-size: 16px;
 }
 
-.panel p{
+.panel p {
     margin-top: 0;
 }
-.panel a{
+
+.panel a {
     font-weight: 600;
 }
 
-.panel a:hover{
+.panel a:hover {
     color: #D8CEC8;
     text-decoration: underline;
 }
@@ -485,23 +499,23 @@ span{
     padding-bottom: 3rem;
 }
 
-.footer p{
+.footer p {
     text-align: center;
-    color: white; 
+    color: white;
     font-size: 10px;
 }
 
-.footer a{
+.footer a {
     text-align: center;
-    color: white; 
+    color: white;
     font-size: 10px;
 }
 
-.logofooter{
+.logofooter {
     display: block;
 }
 
-.footer a:hover{
+.footer a:hover {
     color: #D64527;
     text-decoration: underline;
 }
@@ -511,7 +525,7 @@ span{
     justify-content: center;
 }
 
-.social a{
+.social a {
     display: block;
     cursor: pointer;
 }
@@ -526,7 +540,7 @@ span{
 /* CSS for Related Analyst Materials */
 
 
-.Related-analyst-materials{
+.Related-analyst-materials {
     padding-top: 2.5rem;
     padding-bottom: 8rem;
 
@@ -540,7 +554,7 @@ span{
 
 .analysisimage {
     max-width: 100%;
-    
+
     padding-top: 1rem;
     display: flex;
     align-items: center;
@@ -559,7 +573,7 @@ span{
     height: 355px;
     padding: 15px;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
     justify-content: flex-start;
 }
 
@@ -571,7 +585,7 @@ span{
     align-items: center;
 }
 
-.analysis1>div img{
+.analysis1>div img {
     max-width: 100%;
 }
 
@@ -588,10 +602,10 @@ span{
 .analysis_detail {
     font-weight: 500;
     font-size: 18px;
-    
+
 }
 
-.analysis1 a{
+.analysis1 a {
     color: #D64527;
     font-weight: bolder;
     font-size: 14px;

@@ -1,29 +1,29 @@
 @media (max-width: 767px) {
 
-    .container{
-    margin: 0 auto;
-    max-width: 90%;
+    .container {
+        margin: 0 auto;
+        max-width: 90%;
     }
 
     header .container {
         padding: 1rem 0rem;
     }
 
-    .Secure-Access{
+    .Secure-Access {
         padding-top: 2rem;
         padding-bottom: 0.5rem;
-    
+
     }
 
-    .Solving-secure-challenges{
+    .Solving-secure-challenges {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
     }
 
-    .Related-analyst-materials{
+    .Related-analyst-materials {
         padding-top: 0.5rem;
         padding-bottom: 4rem;
-    
+
     }
 
 
@@ -47,14 +47,14 @@
         font-size: 29px;
     }
 
-   
+
 
     .logo img {
         max-width: 70%;
     }
 
 
-  
+
 
     /* .content-50-50 {
         padding-top: 1em;
@@ -134,17 +134,17 @@
 
     }
 
-    .accordion{
+    .accordion {
         max-width: 100%;
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    .accordion h4{
+    .accordion h4 {
         font-size: 18px;
     }
-    
-    .panel{
+
+    .panel {
         padding: 0px 10px;
     }
 
@@ -186,31 +186,31 @@
 
 @media (max-width: 640px) {
 
-    .container{
+    .container {
         margin: 0 auto;
         max-width: 90%;
-        }
+    }
 
-        header .container {
-            padding: 1rem 0rem;
-        }
-    
-        .Secure-Access{
-            padding-top: 2rem;
-            padding-bottom: 0.5rem;
-        
-        }
-    
-        .Solving-secure-challenges{
-            padding-top: 0.5rem;
-            padding-bottom: 0.5rem;
-        }
-    
-        .Related-analyst-materials{
-            padding-top: 0.5rem;
-            padding-bottom: 4rem;
-        
-        }
+    header .container {
+        padding: 1rem 0rem;
+    }
+
+    .Secure-Access {
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+
+    }
+
+    .Solving-secure-challenges {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .Related-analyst-materials {
+        padding-top: 0.5rem;
+        padding-bottom: 4rem;
+
+    }
 
     h1,
     h2 {
@@ -226,14 +226,14 @@
         font-size: 18px;
     }
 
-    
+
 
     .logo img {
         max-width: 70%;
     }
 
 
-   
+
 
 
     .topLeft ul li::before {
@@ -280,53 +280,53 @@
         padding-right: 10px;
     }
 
-    .accordion{
+    .accordion {
         max-width: 100%;
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    .accordion h4{
+    .accordion h4 {
         font-size: 18px;
     }
 
-    .panel{
+    .panel {
         padding: 0px 10px;
     }
 
 }
 
 
-@media ( min-width: 768px ) and ( max-width:1023px ) {
+@media (min-width: 768px) and (max-width:1023px) {
 
-    .container{
+    .container {
         margin: 0 auto;
         max-width: 90%;
-        }
+    }
 
-        header .container {
-            padding: 2rem 0rem;
-        }
-    
-        .Secure-Access{
-            padding-top: 2rem;
-            padding-bottom: 0.5rem;
-        
-        }
-    
-        .Solving-secure-challenges{
-            padding-top: 0.5rem;
-            padding-bottom: 0.5rem;
-        }
-    
-        .Related-analyst-materials{
-            padding-top: 0.5rem;
-            padding-bottom: 4rem;
-        
-        }
-    
+    header .container {
+        padding: 2rem 0rem;
+    }
 
-    
+    .Secure-Access {
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+
+    }
+
+    .Solving-secure-challenges {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .Related-analyst-materials {
+        padding-top: 0.5rem;
+        padding-bottom: 4rem;
+
+    }
+
+
+
     .logo img {
         max-width: 70%;
     }
@@ -417,13 +417,13 @@
         padding-right: 20px;
     }
 
-    .accordion{
+    .accordion {
         max-width: 100%;
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    .panel{
+    .panel {
         padding: 0px 10px;
     }
 
@@ -445,13 +445,13 @@
         padding-bottom: 0%;
         margin: 0%;
     }
-    
+
     .makehard {
         color: white;
         font-size: 42px;
         margin: 0%;
     }
-    
+
     .easier {
         color: black;
         font-size: 42px;
