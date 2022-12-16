@@ -109,6 +109,7 @@
       max-width: 100%;
       padding-left: 10px;
       padding-right: 10px;
+      gap: 1rem;
     }
   
     .panel {
@@ -272,6 +273,7 @@
       max-width: 100%;
       padding-left: 10px;
       padding-right: 10px;
+      gap: 1rem;
     }
   
     .accordion h4 {
@@ -400,6 +402,7 @@
       max-width: 100%;
       padding-left: 10px;
       padding-right: 10px;
+      gap: 1rem;
     }
   
     .accordion h4 {

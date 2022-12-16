@@ -465,6 +465,7 @@ span {
 
 .panel p {
     margin-top: 0;
+    text-align: left;
 }
 
 .panel a {
