@@ -27,24 +27,10 @@
       max-width: 70%;
     }
   
-    /* .content-50-50 {
-          padding-top: 1em;
-          padding-bottom: 1rem;
-      }
-  
-      .solving {
-          padding-top: 1rem;
-      } */
-  
     .relAnalyst {
       padding-top: 1rem;
       padding-bottom: 1rem;
     }
-  
-    /* .analysis1 {
-          width: 278px;
-          height: 355px;
-      } */
   
     .topc {
       display: flex;
@@ -99,14 +85,7 @@
       max-width: 100%;
     }
   
-    .dropdown {
-      max-width: 100%;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-  
     .accordion {
-      max-width: 100%;
       padding-left: 10px;
       padding-right: 10px;
       gap: 1rem;
@@ -196,15 +175,6 @@
       max-width: 70%;
     }
   
-    /* .content-50-50 {
-          padding-top: 1em;
-          padding-bottom: 1rem;
-      }
-  
-      .solving {
-          padding-top: 1rem;
-      } */
-  
     .relAnalyst {
       padding-top: 1rem;
       padding-bottom: 1rem;
@@ -263,14 +233,7 @@
       max-width: 100%;
     }
   
-    .dropdown {
-      max-width: 100%;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-  
     .accordion {
-      max-width: 100%;
       padding-left: 10px;
       padding-right: 10px;
       gap: 1rem;
@@ -392,14 +355,7 @@
       width: 280px;
     }
   
-    .dropdown {
-      max-width: 100%;
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-  
     .accordion {
-      max-width: 100%;
       padding-left: 10px;
       padding-right: 10px;
       gap: 1rem;
@@ -413,4 +369,3 @@
       padding: 0px 10px;
     }
   }
-  
