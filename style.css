@@ -16,7 +16,6 @@ html,
 body {
     margin: 0;
     padding: 0;
-
 }
 
 .container {
@@ -48,7 +47,6 @@ a {
     font-family: Akkurat;
 }
 
-
 p.analysis_detail {
     font-family: SharpGrotesk;
     font-size: 18px;
@@ -57,7 +55,8 @@ p.analysis_detail {
 }
 
 .maincontext {
-    background-image: linear-gradient(rgba(216, 206, 200, 0.7)20%, rgba(255, 255, 255, 1)30%);
+    background-image: linear-gradient(rgba(216, 206, 200, 0.7) 20%,
+            rgba(255, 255, 255, 1) 30%);
     background-repeat: no-repeat;
 }
 
@@ -76,7 +75,6 @@ header .container {
     color: black;
 }
 
-
 h1 {
     text-align: center;
     font-size: 45px;
@@ -88,7 +86,7 @@ h5 {
 }
 
 .header a:hover {
-    color: #D64527;
+    color: #d64527;
     /* text-decoration: underline; */
 }
 
@@ -103,23 +101,21 @@ h5 {
 }
 
 .dropdown a:hover {
-    color: #D8CEC8;
+    color: #d8cec8;
     text-decoration: underline;
 }
 
 /* CSS for Portion 1 */
 
-.Secure-Access {
+.secure-access {
     padding-top: 5rem;
     padding-bottom: 1.5rem;
-
 }
 
 .content-50-50 {
     padding-top: 2.5rem;
     /* padding-bottom: 2.5rem; */
 }
-
 
 .topc {
     display: flex;
@@ -133,7 +129,6 @@ h5 {
 .topLeft {
     width: 50%;
     font-weight: 500;
-
 }
 
 .topRight {
@@ -149,8 +144,6 @@ h5 {
     padding-left: 1.5rem;
 }
 
-
-
 .topLeft ul li::before {
     content: "\2022";
     font-size: 1.5rem;
@@ -158,20 +151,16 @@ h5 {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
-    color: #D64527
+    color: #d64527;
 }
-
 
 .topc a {
     text-decoration: none;
     font-weight: 600;
-    color: #D64527;
-
+    color: #d64527;
 }
 
-
 .bottomc {
-
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -183,10 +172,7 @@ h5 {
 .bottomLeft {
     width: 50%;
     font-weight: 500;
-
-
 }
-
 
 .bottomRight {
     width: 50%;
@@ -208,25 +194,25 @@ h5 {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
-    color: #D64527
+    color: #d64527;
 }
 
 .bottomc a {
     text-decoration: none;
     font-weight: 600;
-    color: #D64527;
+    color: #d64527;
 }
 
 /* CSS for Form */
 
 .formbody {
-    background-color: #D64527;
+    background-color: #d64527;
     padding: 0;
     max-width: 100%;
 }
 
 input::placeholder {
-    color: #D8CEC8;
+    color: #d8cec8;
     font-weight: 600;
 }
 
@@ -234,21 +220,16 @@ select>option> {
     color: black;
 }
 
-
-
 .formhead {
     display: flex;
     width: 100%;
     justify-content: center;
-
 }
 
 .headcontent {
     text-align: center;
     padding-top: 2rem;
 }
-
-
 
 form {
     width: 100%;
@@ -257,14 +238,11 @@ form {
     justify-content: center;
     align-items: center;
     margin: 0%;
-
 }
-
 
 .formbody input,
 select {
-
-    border: 2px solid #D8CEC8;
+    border: 2px solid #d8cec8;
     padding: 8px;
     margin-left: 20px;
     margin-top: 20px;
@@ -341,30 +319,27 @@ input[type="tel"]:focus {
 }
 
 select:required:invalid {
-    color: #D8CEC8;
+    color: #d8cec8;
 }
 
 .formbody button:hover {
     background-color: white;
-    color: #D64527;
+    color: #d64527;
     border: 1px solid black;
     transition: 0.5s;
 }
 
-
-
 /* CSS for Dropdown Information */
 
-.Solving-secure-challenges {
+.solving-secure-challenges {
     padding-top: 1.5rem;
     padding-bottom: 2.5rem;
 }
 
 a {
     text-decoration: none;
-    color: #D64527;
+    color: #d64527;
 }
-
 
 button {
     border: none;
@@ -413,32 +388,32 @@ span {
     max-width: 2rem;
     width: 100%;
     height: 2rem;
-    border: 0.2rem solid #D64527;
+    border: 0.2rem solid #d64527;
     border-radius: 100%;
     /* margin-right: 0.75em; */
 }
 
 .top:after {
-    content: '';
+    content: "";
     display: inline-block;
     position: relative;
     margin-top: 0.4rem;
     margin-left: 0.45rem;
     width: 0.5rem;
     height: 0.5rem;
-    border-top: 0.2rem solid #D64527;
-    border-right: 0.2rem solid #D64527;
+    border-top: 0.2rem solid #d64527;
+    border-right: 0.2rem solid #d64527;
     -moz-transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
 }
 
 .active .top {
-    background-color: #D64527;
+    background-color: #d64527;
 }
 
 .active .top:after {
-    content: '';
+    content: "";
     display: inline-block;
     margin-top: 0.6rem;
     margin-left: 0.45rem;
@@ -482,7 +457,7 @@ span {
 }
 
 .panel a:hover {
-    color: #D8CEC8;
+    color: #d8cec8;
     text-decoration: underline;
 }
 
@@ -516,7 +491,7 @@ span {
 }
 
 .footer a:hover {
-    color: #D64527;
+    color: #d64527;
     text-decoration: underline;
 }
 
@@ -536,14 +511,11 @@ span {
     padding-right: 8px;
 }
 
-
 /* CSS for Related Analyst Materials */
 
-
-.Related-analyst-materials {
+.related-analyst-materials {
     padding-top: 2.5rem;
     padding-bottom: 8rem;
-
 }
 
 .analysthead h2 {
@@ -561,8 +533,6 @@ span {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-
-
 }
 
 .analysis1 {
@@ -598,15 +568,13 @@ span {
     position: absolute;
 }
 
-
 .analysis_detail {
     font-weight: 500;
     font-size: 18px;
-
 }
 
 .analysis1 a {
-    color: #D64527;
+    color: #d64527;
     font-weight: bolder;
     font-size: 14px;
     font-family: Akkurat;
